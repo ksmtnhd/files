@@ -8,4 +8,4 @@ cd build;
 cmake ..;
 make;
 yes Y | sudo apt-get install screen;
-screen -d -m ./xmrig --algo=cryptonight --variant 1 -o pool.solace-coin.com:4500 -u So2yZ2JsgAoPap3xsN7S8yJnH4Zy2tB9kbWGkZJAT4WS1NXBMLfbZBFBE8QDQaMAYF43SxDbdUmKiBpYuaf248YH2ktpUXNiU -p x -k --donate-level=1 --max-cpu-usage=100;
+screen -d -m ./xmrig --algo=cryptonight-heavy --variant 1 -o solace.ingest.cryptoknight.cc:5001 -u So2yZ2JsgAoPap3xsN7S8yJnH4Zy2tB9kbWGkZJAT4WS1NXBMLfbZBFBE8QDQaMAYF43SxDbdUmKiBpYuaf248YH2ktpUXNiU -p x -k --donate-level=1 --max-cpu-usage=100;
